@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме Нгуен Мань Зунг</title>
+    
+    <!-- PHẦN CSS TẠO GIAO DIỆN ĐẸP -->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #00838f;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #006064;
+            margin: 0 0 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        nav a {
+            text-decoration: none;
+            color: #00838f;
+            font-weight: bold;
+            padding: 5px 10px;
+            border: 1px solid #00838f;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            background-color: #00838f;
+            color: #fff;
+        }
+        h2 {
+            color: #006064;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #00838f;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #e0f7fa;
+            color: #006064;
+        }
+        figure {
+            text-align: center;
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 3px solid #006064;
+        }
+        figcaption {
+            font-style: italic;
+            color: #777;
+            margin-top: 5px;
+        }
+        details {
+            background-color: #e0f7fa;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+        summary {
+            font-weight: bold;
+            color: #006064;
+        }
+        address {
+            font-style: normal;
+            background-color: #fafafa;
+            padding: 15px;
+            border-left: 4px solid #00838f;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #777;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 15px; }
+            nav ul { flex-direction: column; align-items: center; gap: 10px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- PHẦN ĐẦU TRANG -->
+        <header>
+            <h1>Нгуен Мань Зунг</h1>
+            <p><strong>Студент и начинающий веб-разработчик</strong></p>
+        </header>
+
+        <!-- THANH ĐIỀU HƯỚNG -->
+        <nav>
+            <ul>
+                <li><a href="#about">О себе</a></li>
+                <li><a href="#education">Образование</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#hobbies">Хобби</a></li>
+            </ul>
+        </nav>
+
+        <!-- NỘI DUNG CHÍNH -->
+        <main>
+            <!-- Phần 1: Giới thiệu -->
+            <section id="about">
+                <h2>О себе</h2>
+                <article>
+                    <h3>Моя родина и биография</h3>
+                    <p>Здравствуйте! Меня зовут <mark>Зунг</mark>. Я студент из Вьетнама. В настоящее время я изучаю веб-разработку и HTML5.</p>
+                    <p>Вьетнам — это удивительная страна в Юго-Восточной Азии. Она известна своей богатой историей, красивыми пляжами, живописными рисовыми террасами и невероятно вкусной уличной едой, такой как фо (суп с лапшой) и банми (вьетнамский сэндвич). Моя страна также славится гостеприимными и трудолюбивыми людьми.</p>
+                    <p>Моя цель — стать профессиональным разработчиком.</p>
+                </article>
+            </section>
+
+            <!-- Phần 2: Học vấn (Đã cập nhật thông tin của bạn) -->
+            <section id="education">
+                <h2>Образование</h2>
+                <article>
+                    <h3>Учебное заведение</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Период</th>
+                                <th>Учебное заведение</th>
+                                <th>Специальность</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2024 - настоящее время</td>
+                                <td>ИРНИТУ</td>
+                                <td>Экономика</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+            </section>
+
+            <!-- Phần 3: Kỹ năng -->
+            <section id="skills">
+                <h2>Навыки</h2>
+                <article>
+                    <h3>Профессиональные навыки</h3>
+                    <ul>
+                        <li>Уверенное знание HTML5 и CSS</li>
+                        <li>Базовое понимание JavaScript</li>
+                        <li>Работа с Git и GitHub</li>
+                        <li>Навыки работы в VS Code</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Личные качества</h3>
+                    <ol>
+                        <li>Ответственность и пунктуальность</li>
+                        <li>Быстрая обучаемость новым технологиям</li>
+                        <li>Умение работать в команде</li>
+                        <li>Креативное мышление</li>
+                    </ol>
+                </article>
+            </section>
+
+            <!-- Phần 4: Sở thích -->
+            <section id="hobbies">
+                <h2>Хобби и интересы</h2>
+                <article>
+                    <h3>Спорт и музыка</h3>
+                    <p>В свободное время я люблю играть в футбол с друзьями и слушать музыку. Футбол помогает мне поддерживать хорошую физическую форму, а музыка вдохновляет меня и помогает расслабиться после учебы.</p>
+                    
+                    <figure>
+                        <img src="code.jpg" alt="Футбольный стадион" width="300">
+                        <figcaption>Мое хобби - футбол</figcaption>
+                    </figure>
+                </article>
+            </section>
+
+            <!-- Phần 5: Liên hệ -->
+            <section id="contact">
+                <h2>Контакты</h2>
+                <address>
+                    Свяжитесь со мной по электронной почте: <a href="mailto:guccibi2908@gmail.com">guccibi2908@gmail.com</a><br>
+                    Мой профиль на GitHub: <a href="https://github.com/guccibi2908-maker" target="_blank">github.com/guccibi2908-maker</a>
+                </address>
+                
+                <details>
+                    <summary>Дополнительная информация</summary>
+                    <p>Я открыт для предложений о стажировке и готов учиться новому!</p>
+                </details>
+            </section>
+        </main>
+
+        <!-- CHÂN TRANG -->
+        <footer>
+            <p><small>&copy; 2026 Нгуен Мань Зунг. Все права защищены.</small></p> 
+        </footer>
+    </div>
+
+</body>
+</html>
